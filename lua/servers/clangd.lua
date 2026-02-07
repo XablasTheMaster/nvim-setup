@@ -13,6 +13,6 @@ return function(capabilities)
 			"clangd",
 			"--offset-encoding=utf-16",
 		},
-		filetypes = { "c", "cpp" },
+		filetypes = { "c", "cpp", "cc" },
 	})
 end
